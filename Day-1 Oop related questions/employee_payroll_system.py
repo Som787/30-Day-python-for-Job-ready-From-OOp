@@ -1,4 +1,5 @@
-#  **Employee Payroll System**: Calculate salaries, taxes, and bonuses using an inheritance tree of employee types.~
+#  **Employee Payroll System**: Calculate salaries, taxes
+#  using an inheritance tree of employee types.~
 class Company:
   def __init__(self,name,age,type):
     self.name=name
