@@ -27,17 +27,13 @@ def special_characters(password):
 
 def main():
   password=input("Enter your password: ")
-  if len(password)<8:
-    length(password)
-  if not password.isdigit():
-    digits(password)
-  if not password.isupper():
-    uppercase(password)
-  if not password.islower():
-    lowercase(password)
-  if "@ # $ % & * ! ^ _ -" not in password:
-    special_characters(password)
-  return 
+  length(password)
+  digits(password)
+  uppercase(password)
+  lowercase(password)
+  special_characters(password)
+    
+  return f'Your password is {password}'
 
 print(main())
    
